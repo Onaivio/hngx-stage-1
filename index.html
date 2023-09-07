@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNG STAGE ONE</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Profile container -->
+    <div class="container">
+      <img
+        id="profile__img"
+        src="https://ca.slack-edge.com/T05FFAA91JP-U05QYEGE9TR-fdcb2f2e908d-512"
+        alt="onaivi okomayin"
+        data-testid="slackDisplayImage"
+      />
+      <h3 data-testid="slackUserName">Onaivi Okomayin</h3>
+      <hr />
+      <p>
+        Day:
+        <span data-testid="currentDayOfTheWeek"></span>
+      </p>
+      <p>
+        Time:
+        <span data-testid="currentUTCTime"></span>
+        UTC
+      </p>
+      <p>
+        Track:
+        <span data-testid="myTrack">Frontend</span>
+      </p>
+      <a
+        href="https://github.com/yourusername/your-repo"
+        data-testid="githubURL"
+        >GitHub Repo</a
+      >
+    </div>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

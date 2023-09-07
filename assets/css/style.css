@@ -1,0 +1,78 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400&display=swap");
+
+/* Set a background color and font styles */
+body {
+  background: linear-gradient(to right, #569bff, #c1c8dc);
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Style the container */
+.container {
+  width: 25rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.218);
+  border-radius: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+/* Add hover effect to the container */
+.container:hover {
+  transform: scale(1.05);
+}
+
+/* Style the profile picture */
+#profile__img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Style the text elements */
+h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  font-weight: 600;
+  color: #4c4c4e;
+}
+p {
+  font-size: 1rem;
+  margin: 1rem 0;
+  font-weight: 600;
+  color: #383838;
+}
+
+p span {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Style the links */
+a {
+  display: block;
+  margin: 2rem 0 0 0;
+  color: #003cff;
+  font-weight: bolder;
+  transition: color 0.3s ease;
+}
+
+/* Add hover effect to links */
+a:hover {
+  color: #0056b3;
+}
