@@ -42,6 +42,7 @@ body {
   height: 150px;
   margin: 0 auto;
   display: block;
+  border: 2px #c1c8dc solid;
 }
 
 /* Style the text elements */
